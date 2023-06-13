@@ -86,12 +86,11 @@
         line-height: 100%;
         letter-spacing: 0.04em;
         color: #252525;
-        transition: filter 400ms;
+        transition: filter 200ms;
         border-radius: 0;
-
-
+        
         &:hover {
-            filter: brightness(1.2);
+            filter: brightness(1.4);
         }
     }
 

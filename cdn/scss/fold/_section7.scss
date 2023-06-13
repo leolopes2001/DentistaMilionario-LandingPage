@@ -37,8 +37,16 @@
     cursor: pointer;
 }
 
-.section_7 .card_section_7 .img-fluid {
-    height: 70%;
+.section_7 .card_section_7 img {
+    // height: 70%;
+    height: 100px !important;
+    // object-fit: cover;
+
+}
+.section_7 .card_section_7.ative img {
+    // height: 70%;
+    height: 160px !important;
+    // object-fit: cover;
 
 }
 
@@ -153,6 +161,7 @@
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.04em;
+        margin-top: 2rem !important;
     }
 
     .section_7 .container>p {
@@ -168,10 +177,6 @@
         max-width: 1023px;
     }
 }
-
-
-
-
 
 .only_50_invites_container {
     height: 130px;

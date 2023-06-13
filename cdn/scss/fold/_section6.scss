@@ -53,10 +53,10 @@
       font-size: 16px;
       line-height: 24px;
       color: #111617;
-      transition: all 400ms;
+      transition: filter 200ms;
 
       &:hover {
-        filter: brightness(1.2);
+        filter: brightness(1.4);
       }
     }
 

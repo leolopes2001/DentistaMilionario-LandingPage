@@ -2,18 +2,26 @@
     background-color: #111617;
 
     h6 {
-        color: #fff;
         font-size: clamp(20px,8vw,40px);
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #E9C872;
+        text-transform: uppercase;
     }
     
     .card_carrossel {
         margin: 0 auto;
         max-width: 338px !important;
         img {
-            border-radius: 16px;
-            height: 250px;
-            
-            object-fit: cover;
+            border-radius: 8px 8px 0px 0px;
+            height: 200px;
+        }
+
+        div:first-child{
+            background-color: #fff;
+            border-radius: 16px 16px 0px 0px;
         }
 
         border-radius: 16px;
@@ -24,12 +32,12 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            border: 3px solid #5f5f5f;
+            border: 3px solid rgba(255, 255, 255, 0.2);
             border-top: none;
-            border-radius: 0px 0px 16px 16px;
+            border-radius: 0px 0px 8px 8px;
             li {
                 color: #fff;
-                font-size: 12px;
+                font-size: 11px;
                 font-weight: 400;
                 font-family: "Open Sans";
             }

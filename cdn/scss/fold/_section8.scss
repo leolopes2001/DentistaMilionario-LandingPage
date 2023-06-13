@@ -60,6 +60,11 @@
     font-size: 18px;
     line-height: 24px;
     color: #111617;
+    transition: filter 200ms;
+
+    &:hover{
+        filter: brightness(1.4);
+    }
 }
 
 .section_8 .hotel_title_section_8 {
