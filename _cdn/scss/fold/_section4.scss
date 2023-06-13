@@ -1,0 +1,99 @@
+.section_4 {
+    background: #e9c872;
+
+    h6 {
+        background: #e9c872;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        font-size: 26px;
+        /* line-height: 78px; */
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+
+    @media (min-width: 576px) {
+        h6 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        p {
+            font-size: 36px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+
+    @media (min-width: 768px) {
+        h6 {
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        p {
+            font-size: 23px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        h6 {
+            font-size: 46px;
+            line-height: 48px;
+        }
+
+        p {
+            font-size: 28px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        h6 {
+            font-size: 50px;
+            line-height: 62px;
+            max-width: 1157px;
+        }
+
+        p {
+            font-size: 30px;
+            max-width: 957px;
+            line-height: 40px;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        h6 {
+            font-size: 56px;
+            line-height: 78px;
+        }
+    
+        p {
+            font-size: 36px;
+            line-height: 50px;
+        }
+    
+    }
+}
+
+
+
+
+
+
+
+

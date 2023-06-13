@@ -1,0 +1,150 @@
+.section_2 {
+  background-color: #111617;
+
+  h1 {
+    font-family: SansPro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    font-size: 32px;
+    line-height: 79px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #e9c872;
+    max-width: 600px;
+  }
+
+  .content_section_2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 14px;
+    max-width: 600px;
+    color: #ffffff;
+  }
+
+  .link_wpp_section_2 {
+    border: none;
+    border-radius: 0px;
+    width: 285px;
+    width: 100%;
+    height: 48px;
+    background: linear-gradient(277.3deg, #149a02 6.75%, #4bfa86 95.73%);
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: #252525;
+    transition: all 400ms;
+
+    &:hover {
+      filter: brightness(1.2);
+    }
+  }
+
+  .img-container_section_2 {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: 576px) {
+    h1 {
+      font-size: 72px;
+      font-size: 38px;
+      line-height: 40px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 72px;
+      font-size: 42px;
+      line-height: 79px;
+      line-height: 49px;
+    }
+
+    .container {
+      max-width: 700px;
+    }
+
+    .content_section_2 {
+      font-size: 24px;
+      font-size: 16px;
+    }
+
+    .link_wpp_section_2 {
+      max-width: 285px;
+      font-size: 18px;
+      height: 58px;
+    }
+
+    .img-container_section_2 {
+      margin-bottom: 130px;
+    }
+
+    .img-container_section_2 img:first-child {
+      transform: translateX(40px);
+    }
+  }
+
+  @media (min-width: 992px) {
+    h1 {
+      /* font-size: 72px; */
+      font-size: 50px;
+      line-height: 59px;
+      width: 481px;
+      /* line-height: 29px; */
+    }
+
+    .content_section_2 {
+      font-size: 24px;
+      font-size: 20px;
+    }
+
+
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 72px;
+      font-size: 60px;
+      line-height: 70px;
+      width: 568px;
+      /* line-height: 29px; */
+
+    }
+
+    .img-container_section_2 img:last-child {
+      transform: translateX(40px);
+    }
+
+
+  }
+
+  @media (min-width: 1400px) {
+    h1 {
+      font-size: 72px;
+      /* font-size: 60px; */
+      line-height: 70px;
+      /* line-height: 29px; */
+    }
+
+    .img-container_section_2 img:last-child {
+      transform: translateX(80px);
+    }
+
+    .container {
+      max-width: 1320px !important;
+    }
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}
+
+
+
+

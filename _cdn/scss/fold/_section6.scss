@@ -1,0 +1,411 @@
+.section_6 {
+  background-color: #111617;
+
+  .container {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+
+    .text_one_section_6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      font-size: 16px;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+    }
+
+    .title_one_section_6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      font-size: 36px;
+      line-height: 120%;
+      letter-spacing: 0.02em;
+      color: #E9C872;
+    }
+
+    .text_two_section_6 {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      font-size: 18px;
+      line-height: 150%;
+      color: rgba(255, 255, 255, 0.64);
+    }
+
+    .link_book_section_6 {
+      border-radius: 0;
+      border: none;
+      width: 337px;
+      height: 48px;
+      background: linear-gradient(277.47deg, #149A02 -19.68%, #4BFA86 100%);
+      box-shadow: 0px 16px 48px rgba(255, 107, 24, 0.08);
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #111617;
+      transition: all 400ms;
+
+      &:hover {
+        filter: brightness(1.2);
+      }
+    }
+
+    .schedule_day_section_6 {
+      .hour {
+        padding-top: 3px;
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        font-size: 11px;
+        line-height: 150%;
+        color: rgba(255, 255, 255, 0.64);
+        margin-right: 29px;
+        margin-right: 10px;
+        min-width: 120px;
+      }
+
+      .order {
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+        background: linear-gradient(277.3deg, #e9c872 6.75%, #111617 95.73%);
+        border-radius: 50%;
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 150%;
+        color: #111617;
+        margin-right: 46px;
+        margin-right: 18px;
+
+        &::after {
+          position: absolute;
+          height: calc(100% - 24px);
+          width: 1px;
+          background: #e9c872;
+          opacity: 0.2;
+          z-index: 9999999999;
+          content: "";
+          top: 24px;
+        }
+
+        &.first_order::before {
+          position: absolute;
+          content: "";
+          top: -140px;
+          height: 140px;
+          width: 1px;
+          background-color: #e9c872;
+          opacity: 0.2;
+        }
+
+      }
+
+      .content {
+
+        h6 {
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          font-size: 12px;
+          line-height: 150%;
+          color: #ffffff;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          // line-height: 150%; 
+          margin: 0;
+          color: #ffffff;
+          margin-top: 0px;
+          margin-bottom: 6px;
+        }
+
+        p {
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 150%;
+          color: rgba(255, 255, 255, 0.6);
+          margin-bottom: 2rem !important;
+        }
+
+      }
+
+    }
+
+    .seccond_day_section_6 {
+      margin-left: 39px;
+    }
+
+    .day_container_section_6 {
+      cursor: pointer;
+      border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+      position: relative;
+
+      h6 {
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        font-size: 14px;
+        line-height: 150%;
+        color: rgba(255, 255, 255, 1);
+        opacity: 0.6;
+      }
+
+
+      p {
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        font-size: 12px;
+        line-height: 150%;
+        color: rgba(255, 255, 255, 1);
+        opacity: 0.6;
+
+        span {
+          font-weight: 700;
+          font-size: 32px;
+          font-size: 26px;
+          line-height: 150%;
+        }
+      }
+
+
+      &>div.active p,
+      &>div.active h6 {
+        opacity: 1;
+      }
+
+      .tab {
+        width: 180px;
+        background-color: #ffffff;
+        content: "";
+        height: 4px;
+        left: 142px;
+        bottom: -3px;
+        position: absolute;
+        transition: all 400ms;
+      }
+
+      .first_day_section_6.active~.tab {
+        width: 180px;
+        left: 0;
+      }
+    }
+
+
+    @media (min-width: 576px) {
+
+      .day_container_section_6 {
+        h6 {
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 14px;
+
+          span {
+            font-size: 28px;
+          }
+        }
+
+        .tab {
+          width: 222px;
+          left: 169px;
+        }
+
+        .first_day_section_6.active~.tab {
+          width: 210px;
+          left: 0;
+        }
+      }
+
+      .schedule_day_section_6 {
+
+        .content {
+          h6 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 13px;
+          }
+
+        }
+
+        .order {
+          margin-right: 30px;
+        }
+
+        .hour {
+          font-size: 13px;
+          min-width: 134px;
+          margin-right: 25px !important;
+        }
+      }
+
+      .seccond_day_section_6 {
+        margin-left: 79px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .day_container_section_6 {
+        h6 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 15px;
+
+          span {
+            font-size: 30px;
+          }
+        }
+
+        .tab {
+          width: 242px;
+          left: 196px;
+        }
+
+        .first_day_section_6.active~.tab {
+          width: 240px;
+          left: 0;
+        }
+
+      }
+
+      .schedule_day_section_6 {
+
+        .hour {
+          font-size: 14px;
+          min-width: 160px;
+        }
+
+        .order {
+          margin-right: 45px;
+        }
+
+
+        .content {
+          h6 {
+            font-size: 15px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .seccond_day_section_6 {
+        margin-left: 118px;
+      }
+
+      .link_book_section_6 {
+        font-size: 18px;
+      }
+    }
+
+    @media (min-width: 992px) {
+
+      .day_container_section_6 {
+        h6 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 16px;
+
+          span {
+            font-size: 32px;
+          }
+        }
+
+        .tab {
+          width: 262px;
+          left: 199px;
+        }
+
+        .first_day_section_6.active~.tab {
+          width: 240px;
+          left: 0;
+        }
+
+      }
+
+      .schedule_day_section_6 {
+        .hour {
+          font-size: 16px;
+        }
+
+        .content {
+          h6 {
+            font-size: 18px;
+          }
+
+          p {
+            font-size: 16px;
+            margin-bottom: 3rem !important;
+          }
+        }
+
+
+
+      }
+
+      .seccond_day_section_6 {
+        margin-left: 121px;
+      }
+
+      .text_one_section_6 {
+        font-size: 18px;
+      }
+
+      .title_one_section_6 {
+        font-size: 48px;
+        font-size: 40px;
+      }
+
+      .text_two_section_6 {
+        font-size: 20px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container_link_section_6 {
+        margin-top: 4rem !important;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .text_one_section_6 {
+        font-size: 20px;
+      }
+
+      .title_one_section_6 {
+        font-size: 48px;
+      }
+
+      .text_two_section_6 {
+        font-size: 20px;
+      }
+    }
+  }
+}

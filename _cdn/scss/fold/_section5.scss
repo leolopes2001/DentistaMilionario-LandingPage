@@ -1,0 +1,123 @@
+.section_5 {
+  background-color: #111617;
+
+  .dentist_container_photo_section_5>div {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 120px;
+    width: auto;
+
+    h6 {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 140%;
+      color: #E7B957;
+      white-space: nowrap;
+    }
+
+    span {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 140%;
+      color: #E7B957;
+    }
+  }
+
+  ul li {
+    padding: 16px;
+
+    &>div {
+      border-radius: 20px;
+      box-shadow: 0px 0px 4px #e7d957;
+      max-width: 390px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0px 0px 4px #e7d957;
+    }
+
+
+    .dentist_container_photo_section_5 {
+      padding: 1rem;
+      background: linear-gradient(180deg, #e7b957 0%, rgba(196, 196, 196, 0) 100%);
+      border-radius: 20px;
+    }
+
+    .dentist_about_section_5 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      font-size: 32px;
+      font-size: 14px;
+      line-height: 140%;
+      color: #ffffff;
+      min-height: 90px;
+    }
+  }
+
+  .text_container_section_5 {
+    font-family: "Plus Jakarta Sans";
+    padding-top: 5.5rem !important;
+
+    p {
+      font-weight: 600;
+      font-size: 40px;
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+    }
+
+    h1 {
+      font-weight: 800;
+      font-size: 64px;
+      font-size: 38px;
+      line-height: 120%;
+      letter-spacing: 0.02em;
+      color: #e9c872;
+    }
+
+
+
+    @media (min-width: 576px) {
+      h1 {
+        font-size: 42px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 45px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      h1 {
+        font-size: 50px;
+      }
+
+      padding-left: 12%;
+      padding-top: 7.5rem !important;
+      padding-bottom: 1rem !important;
+
+    }
+
+    @media (min-width: 1200px) {
+      h1 {
+        font-size: 55px;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      h1 {
+        font-size: 64px;
+      }
+    }
+
+  }
+}
+

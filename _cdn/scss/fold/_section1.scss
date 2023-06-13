@@ -1,0 +1,90 @@
+.section_1 {
+  width: 100vw;
+  background-color: #111617;
+  padding: 0.7rem;
+
+  h1 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    font-size: 19px;
+    line-height: 57px;
+    line-height: 37px;
+    color: #e7b957;
+    max-width: 873px;
+  }
+
+  .content_section_1 p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 12px;
+    line-height: 27px;
+    color: #ffffff;
+    width: 100%;
+    max-width: 482px;
+  }
+
+  .link_book_place_section_1 {
+    border: none;
+    gap: 8px;
+    width: 100%;
+    max-width: 337px;
+    height: 48px;
+    background: linear-gradient(277.47deg, #149a02 -19.68%, #4bfa86 100%);
+    box-shadow: 0px 16px 48px rgba(255, 107, 24, 0.08);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 0;
+    color: #111617;
+    transition: all 400ms;
+
+    &:hover {
+      filter: brightness(1.2);
+    }
+  }
+
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    .content_section_1 p {
+      font-size: 16px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .link_book_place_section_1 {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    .content_section_1 p {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 35px;
+      line-height: 57px;
+    }
+  }
+
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    .content_section_1 p {
+      font-size: 24px;
+      line-height: 45px;
+    }
+
+    h1 {
+      font-size: 48px;
+      line-height: 57px;
+
+    }
+  }
+
+}

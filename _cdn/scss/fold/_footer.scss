@@ -1,0 +1,52 @@
+footer {
+  background-color: rgba(17, 17, 17, 1);
+  padding: 8rem 0 2rem 0;
+
+  .container {
+
+    h3 {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+    }
+
+    p {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.64);
+    }
+
+    .social_media_container_foooter>a {
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+      transition: 300ms all;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.3);
+      }
+    }
+
+
+    @media (min-width: 720px) {
+      h3 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+

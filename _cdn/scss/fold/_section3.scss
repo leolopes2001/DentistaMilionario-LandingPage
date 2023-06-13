@@ -1,0 +1,136 @@
+.section_3 {
+  background-color: #111617;
+
+  h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e9c872;
+    padding-bottom: 1rem;
+  }
+
+  ul li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+
+  .footer_section_3 p {
+    border-top: 1px solid #e9c872;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #e9c872;
+  }
+
+  .title_container_section_3 {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      bottom: -1px;
+      width: 70%;
+      height: 1px;
+      content: "";
+      background-color: #D3D3D3;
+    }
+
+    &::after {
+      position: absolute;
+      bottom: -1px;
+      width: 40%;
+      height: 3px;
+      content: "";
+      background-color: #e9c872;
+    }
+
+  }
+
+  @media (min-width: 768px) {
+    h4 {
+      /* font-size: 24px; */
+      font-size: 18px;
+      line-height: 29px;
+    }
+
+    ul li {
+      font-size: 24px;
+      font-size: 18px;
+      line-height: 29px;
+    }
+
+    .footer_section_3 p {
+      font-size: 24px;
+      font-size: 18px;
+      line-height: 29px;
+    }
+
+  }
+
+  @media (min-width: 992px) {
+    h4 {
+      font-size: 20px;
+      line-height: 29px;
+    }
+
+    ul li {
+      font-size: 20px;
+      line-height: 29px;
+    }
+
+    .footer_section_3 p {
+      font-size: 20px;
+      line-height: 29px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h4 {
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+    ul li {
+      font-size: 22px;
+      line-height: 29px;
+    }
+
+    .footer_section_3 p {
+      font-size: 22px;
+      line-height: 29px;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    h4 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    ul li {
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    .footer_section_3 p {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+
+}
