@@ -34,7 +34,7 @@ body {
 }
 .main .container {
   height: auto;
-  min-height: 100vh !important;
+  min-height: 95vh !important;
   background-color: transparent;
 }
 .main .background_main {
@@ -154,6 +154,9 @@ body {
   margin-top: 5%;
 }
 @media (min-width: 576px) {
+  .main .container {
+    min-height: 100vh !important;
+  }
   .main .content_main {
     margin-top: 0;
     transform: translateY(0);

@@ -12,7 +12,7 @@
 
     .container {
         height: auto;
-        min-height: 100vh !important;
+        min-height: 95vh !important;
         background-color: transparent;
     }
 
@@ -153,6 +153,10 @@
 
 
     @media (min-width: map-get($grid-breakpoints, sm)) {
+        .container {
+            min-height: 100vh !important;
+        }
+    
         .content_main {
             margin-top: 0;
             transform: translateY(0);
