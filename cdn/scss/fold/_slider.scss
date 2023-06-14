@@ -1,5 +1,5 @@
 .carrossel {
-    background-color: #111617;
+    background-color: $background-primary;
 
     h6 {
         font-size: clamp(20px,8vw,40px);
@@ -7,7 +7,7 @@
         font-weight: 800;
         line-height: 120%;
         letter-spacing: 0.02em;
-        color: #E9C872;
+        color: $primary-color-light;
         text-transform: uppercase;
     }
     
@@ -20,7 +20,7 @@
         }
 
         div:first-child{
-            background-color: #fff;
+            background-color: $white-fixed;
             border-radius: 16px 16px 0px 0px;
         }
 
@@ -36,7 +36,7 @@
             border-top: none;
             border-radius: 0px 0px 8px 8px;
             li {
-                color: #fff;
+                color: $white-fixed;
                 font-size: 11px;
                 font-weight: 400;
                 font-family: "Open Sans";

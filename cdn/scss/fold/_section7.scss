@@ -1,198 +1,170 @@
 .section_7 {
-    background-color: #111617;
-    
-}
+    background-color: $background-primary;
+
+    .container {
+        &>h4 {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 800;
+            font-size: 48px;
+            font-size: 31px;
+            line-height: 120%;
+            letter-spacing: 0.02em;
+            color: $primary-color-light;
+        }
+
+        &>p {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: $white-fixed;
+            max-width: 1072px;
+        }
+
+        .card_section_7 {
+            max-width: 750px;
+            width: 100%;
+            height: 530px;
+            height: 130px;
+            cursor: pointer;
+
+            img {
+                height: 100px !important;
+            }
+
+            .speaker_name_section_7 {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.04em;
+                color: $primary-color-light;
+                margin: 0;
+                padding: 0;
+            }
+
+            .speaker_company_section_7,
+            .speaker_profession_section_7 {
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.04em;
+                color: $white-fixed;
+                margin: 0;
+                padding: 0;
+            }
 
 
-.section_7 .container>h4 {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    font-size: 31px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #E9C872;
-}
+            .speaker_about_section_7 {
+                margin: 0;
+                padding: 0;
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 200%;
+                color: $white-fixed;
+            }
 
+            &.ative {
+                height: auto !important;
 
-.section_7 .container>p {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 800;
-    /* font-size: 48px; */
-    font-size: 30px;
-    line-height: 120%;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    max-width: 1072px;
-}
+                img {
+                    height: 160px !important;
+                }
 
-.section_7 .card_section_7 {
-    max-width: 750px;
-    width: 100%;
-    height: 530px;
-    height: 130px;
-    cursor: pointer;
-}
+                &>div {
+                    transform: translateY(-18px);
+                }
 
-.section_7 .card_section_7 img {
-    // height: 70%;
-    height: 100px !important;
-    // object-fit: cover;
+                .speaker_about_section_7,
+                .speaker_company_section_7,
+                .speaker_profession_section_7 {
+                    display: block !important;
+                }
+            }
 
-}
-.section_7 .card_section_7.ative img {
-    // height: 70%;
-    height: 160px !important;
-    // object-fit: cover;
+            &:not(.ative) {
+                .speaker_photo_section_7 {
+                    align-items: center !important;
+                }
 
-}
+                .speaker_photo_section_7 img {
+                    transform: translateX(7px);
+                }
 
-.section_7 .speaker_name_section_7 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #E9C872;
-    margin: 0;
-    padding: 0;
-}
+                .card_content_section_7 {
+                    justify-content: center !important;
+                }
+            }
+        }
 
-.section_7 .speaker_company_section_7,
-.section_7 .speaker_profession_section_7 {
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
+        @media (min-width:992px) {
+            &>h4 {
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 120%;
+                letter-spacing: 0.02em;
+                color: $primary-color-light;
+            }
 
-    /* or 24px */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
+            &>p {
+                font-size: 40px;
+                max-width: 907px;
+            }
 
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0;
-}
+            .card_section_7 {
+                min-height: 500px;
 
+                &:not(.ative) {
+                    width: 150px;
+                    padding: 3rem 0 !important;
 
-.section_7 .speaker_about_section_7 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 200%;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
+                    &>div {
+                        flex-direction: column !important;
+                        align-items: center;
+                        justify-content: start;
+                        height: 100%;
+                    }
 
-.card_section_7.ative {
-    height: auto !important;
+                    .speaker_name_section_7 {
+                        writing-mode: vertical-rl;
+                        color: $white-fixed;
+                        font-family: 'Plus Jakarta Sans';
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 150%;
+                        letter-spacing: 0.04em;
+                        margin-top: 2rem !important;
+                    }
+                }
+            }
+        }
 
-}
-
-.card_section_7.ative>div {
-    transform: translateY(-18px);
-
-}
-
-.card_section_7.ative .speaker_about_section_7,
-.card_section_7.ative .speaker_company_section_7,
-.card_section_7.ative .speaker_profession_section_7 {
-    display: block !important;
-
-}
-
-.card_section_7:not(.ative) .speaker_photo_section_7 {
-    align-items: center !important;
-}
-
-.card_section_7:not(.ative) .speaker_photo_section_7 img {
-    transform: translateX(7px);
-}
-
-.card_section_7:not(.ative) .card_content_section_7 {
-    justify-content: center !important;
-}
-
-@media (min-width:992px) {
-    .section_7 .container>h4 {
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 40px;
-        /* font-size: 31px; */
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #E9C872;
-    }
-
-    .section_7 .card_section_7 {
-        min-height: 500px;
-    }
-
-    .card_section_7:not(.ative) {
-        width: 150px;
-        padding: 3rem 0 !important;
-    }
-
-    .card_section_7:not(.ative)>div {
-        flex-direction: column !important;
-        align-items: center;
-        justify-content: start;
-        height: 100%;
-    }
-
-    .card_section_7:not(.ative) .speaker_name_section_7 {
-        writing-mode: vertical-rl;
-        color: #FFFFFF;
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.04em;
-        margin-top: 2rem !important;
-    }
-
-    .section_7 .container>p {
-        font-size: 40px;
-        max-width: 907px;
-    }
-
-}
-
-@media (min-width:1400px) {
-    .section_7 .container>p {
-        font-size: 48px;
-        max-width: 1023px;
+        @media (min-width:1400px) {
+            &>p {
+                font-size: 48px;
+                max-width: 1023px;
+            }
+        }
     }
 }
 
 .only_50_invites_container {
     height: 130px;
-    background: #E9C872;
-}
+    background: $primary-color-light;
 
-.only_50_invites_container h6 {
-
-    background: #E9C872;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    font-size: clamp(20px, 5vw, 62px);
-    /* line-height: 87px; */
-    text-transform: uppercase;
-    color: #111617;
+    h6 {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 72px;
+        font-size: clamp(25px, 5vw, 62px);
+        // line-height: 87px; 
+        text-transform: uppercase;
+        color: $background-primary;
+    }
 }

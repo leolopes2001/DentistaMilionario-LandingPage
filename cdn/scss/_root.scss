@@ -9,10 +9,14 @@ $grid-breakpoints: (
 
 $white-fixed: #fff;
 $black-fixed: #000;
+$background-primary: #111617;
+$primary-color: #E7B957;
+$primary-color-light: #E9C872;
+$link-color: linear-gradient(277.47deg, #149A02 -19.68%, #4BFA86 100%);
+$link-color-light: linear-gradient(277.3deg, #149A02 6.75%, #4BFA86 95.73%);
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-

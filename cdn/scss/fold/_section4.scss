@@ -1,8 +1,8 @@
 .section_4 {
-    background: #e9c872;
+    background: $primary-color-light;
 
     h6 {
-        background: #e9c872;
+        background: $primary-color-light;
         font-family: "Inter";
         font-style: normal;
         font-weight: 700;
@@ -11,7 +11,7 @@
         /* line-height: 78px; */
         text-align: center;
         text-transform: uppercase;
-        color: #ffffff;
+        color: $white-fixed;
     }
 
     p {
@@ -22,7 +22,7 @@
         font-size: 16px;
         text-align: center;
         text-transform: uppercase;
-        color: #ffffff;
+        color: $white-fixed;
     }
 
 

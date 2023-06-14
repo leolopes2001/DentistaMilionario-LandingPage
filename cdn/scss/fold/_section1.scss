@@ -1,6 +1,6 @@
 .section_1 {
   width: 100vw;
-  background-color: #111617;
+  background-color:$background-primary;
   padding: 0.7rem;
   padding-top: 2.5rem;
 
@@ -12,7 +12,7 @@
     font-size: 19px;
     line-height: 57px;
     line-height: 37px;
-    color: #e7b957;
+    color: $primary-color;
     max-width: 873px;
   }
 
@@ -23,7 +23,7 @@
     font-size: 24px;
     font-size: 12px;
     line-height: 27px;
-    color: #ffffff;
+    color: $white-fixed;
     width: 100%;
     max-width: 482px;
   }
@@ -34,7 +34,7 @@
     width: 100%;
     max-width: 337px;
     height: 48px;
-    background: linear-gradient(277.47deg, #149a02 -19.68%, #4bfa86 100%);
+    background: $link-color;
     box-shadow: 0px 16px 48px rgba(255, 107, 24, 0.08);
     font-family: "Poppins";
     font-style: normal;
@@ -42,7 +42,7 @@
     font-size: 16px;
     line-height: 24px;
     border-radius: 0;
-    color: #111617;
+    color: $background-primary;
     transition: filter 200ms;
 
     &:hover {

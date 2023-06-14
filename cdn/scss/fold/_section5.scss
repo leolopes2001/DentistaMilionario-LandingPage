@@ -1,5 +1,5 @@
 .section_5 {
-  background-color: #111617;
+  background-color: $background-primary;
 
   .dentist_container_photo_section_5>div {
     left: 50%;
@@ -13,7 +13,7 @@
       font-weight: 800;
       font-size: 24px;
       line-height: 140%;
-      color: #E7B957;
+      color: $primary-color;
       white-space: nowrap;
     }
 
@@ -23,7 +23,7 @@
       font-weight: 800;
       font-size: 16px;
       line-height: 140%;
-      color: #E7B957;
+      color: $primary-color;
     }
   }
 
@@ -42,7 +42,7 @@
 
     .dentist_container_photo_section_5 {
       padding: 1rem;
-      background: linear-gradient(180deg, #e7b957 0%, rgba(196, 196, 196, 0) 100%);
+      background: linear-gradient(180deg, $primary-color 0%, rgba(196, 196, 196, 0) 100%);
       border-radius: 20px;
     }
 
@@ -54,7 +54,7 @@
       font-size: 32px;
       font-size: 14px;
       line-height: 140%;
-      color: #ffffff;
+      color: $white-fixed;
       min-height: 90px;
     }
   }
@@ -69,7 +69,7 @@
       font-size: 20px;
       line-height: 150%;
       letter-spacing: 0.04em;
-      color: #ffffff;
+      color: $white-fixed;
     }
 
     h1 {
@@ -78,7 +78,7 @@
       font-size: 38px;
       line-height: 120%;
       letter-spacing: 0.02em;
-      color: #e9c872;
+      color: $primary-color-light;
     }
 
 

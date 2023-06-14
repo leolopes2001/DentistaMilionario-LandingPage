@@ -1,5 +1,5 @@
 .section_3 {
-  background-color: #111617;
+  background-color: $background-primary;
 
   h4 {
     font-family: "Inter";
@@ -10,7 +10,7 @@
     line-height: 29px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #e9c872;
+    color: $primary-color-light;
     padding-bottom: 1rem;
   }
 
@@ -21,11 +21,11 @@
     font-size: 24px;
     font-size: 14px;
     line-height: 29px;
-    color: #ffffff;
+    color: $white-fixed;
   }
 
   .footer_section_3 p {
-    border-top: 1px solid #e9c872;
+    border-top: 1px solid $primary-color-light;
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
@@ -35,7 +35,7 @@
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #e9c872;
+    color: $primary-color-light;
   }
 
   .title_container_section_3 {
@@ -56,7 +56,7 @@
       width: 40%;
       height: 3px;
       content: "";
-      background-color: #e9c872;
+      background-color: $primary-color-light;
     }
 
   }

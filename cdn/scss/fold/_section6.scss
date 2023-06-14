@@ -1,5 +1,5 @@
 .section_6 {
-  background-color: #111617;
+  background-color: $background-primary;
 
   .container {
     padding-top: 3rem;
@@ -16,7 +16,7 @@
       display: flex;
       align-items: center;
       letter-spacing: 0.04em;
-      color: #FFFFFF;
+      color: $white-fixed;
     }
 
     .title_one_section_6 {
@@ -27,7 +27,7 @@
       font-size: 36px;
       line-height: 120%;
       letter-spacing: 0.02em;
-      color: #E9C872;
+      color: $primary-color-light;
     }
 
     .text_two_section_6 {
@@ -45,14 +45,14 @@
       border: none;
       width: 337px;
       height: 48px;
-      background: linear-gradient(277.47deg, #149A02 -19.68%, #4BFA86 100%);
+      background: $link-color;
       box-shadow: 0px 16px 48px rgba(255, 107, 24, 0.08);
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
       line-height: 24px;
-      color: #111617;
+      color: $background-primary;
       transition: filter 200ms;
 
       &:hover {
@@ -79,14 +79,14 @@
         width: 24px;
         min-width: 24px;
         height: 24px;
-        background: linear-gradient(277.3deg, #e9c872 6.75%, #111617 95.73%);
+        background: linear-gradient(277.3deg, $primary-color-light 6.75%, $background-primary 95.73%);
         border-radius: 50%;
         font-family: "Plus Jakarta Sans";
         font-style: normal;
         font-weight: 700;
         font-size: 12px;
         line-height: 150%;
-        color: #111617;
+        color: $background-primary;
         margin-right: 46px;
         margin-right: 18px;
 
@@ -94,7 +94,7 @@
           position: absolute;
           height: calc(100% - 24px);
           width: 1px;
-          background: #e9c872;
+          background: $primary-color-light;
           opacity: 0.2;
           z-index: 9999999999;
           content: "";
@@ -107,7 +107,7 @@
           top: -140px;
           height: 140px;
           width: 1px;
-          background-color: #e9c872;
+          background-color: $primary-color-light;
           opacity: 0.2;
         }
 
@@ -122,13 +122,13 @@
           font-size: 18px;
           font-size: 12px;
           line-height: 150%;
-          color: #ffffff;
+          color: $white-fixed;
           font-style: normal;
           font-weight: 700;
           font-size: 13px;
           // line-height: 150%; 
           margin: 0;
-          color: #ffffff;
+          color: $white-fixed;
           margin-top: 0px;
           margin-bottom: 6px;
         }
@@ -194,7 +194,7 @@
 
       .tab {
         width: 180px;
-        background-color: #ffffff;
+        background-color: $white-fixed;
         content: "";
         height: 4px;
         left: 142px;
